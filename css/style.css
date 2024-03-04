@@ -1,0 +1,126 @@
+/* double nav */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+    height: 20px;
+    color: rgb(150, 253, 150);
+}
+
+header h6:hover {
+    color: #f4f4f4;
+}
+
+main {
+    background-color: rgb(30, 27, 27);
+    padding: 20px;
+    color: #f4f4f4;
+    height: 100px;
+}
+
+li {
+    list-style: none;
+    padding: 7px;
+    display: inline-block;
+}
+
+main h6:hover {
+    color: rgb(150, 253, 150);
+
+}
+
+main button {
+    text-align: right;
+    background-color: rgb(12, 183, 12);
+    color: #f4f4f4;
+    font-size: medium;
+}
+
+main button:hover {
+    background-color: #3e8e41
+}
+
+main img {
+    width: 200px;
+}
+/* body area -----------------------------------*/
+
+section img {
+    /* width: 1497px; */
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+    section {
+        background-color: #000000; 
+        text-shadow: 2px 2px #0000007c;
+    }
+
+    section h2 {
+        color: #f4f4f4;
+        
+    }
+
+    section h4 {
+        color: #f4f4f4;
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      
+      .top-left {
+        position: absolute;
+        top: 50px;
+        left: 180px;
+      }
+
+      section button {
+        background-color: rgb(12, 183, 12);
+        color: #f4f4f4;
+        font-size: x-large;
+        height: 70px;
+      }
+
+      section button:hover {
+        background-color:rgba(16, 14, 14, 0.886);
+        border-color: #f4f4f4;
+      }
+      /* next part ----------------------------------------------- */
+      
+      article {
+        background-color: rgb(30, 27, 27);
+        height: 700px;
+        padding-top: 10px;
+        display: flex;
+        padding-right: 150px;
+      }
+
+      article h1 {
+        color: #f4f4f4;
+        text-align: center;
+      }
+
+      article img {
+        padding-top: 130px;
+        padding-left: 20px;
+        width: 250px;
+      }
+
+      article p {
+        color: #f4f4f4;
+        padding-left: 50px;
+      }
